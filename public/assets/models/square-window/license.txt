@@ -1,0 +1,8 @@
+Model Information:
+* title:	Square Gothic Window Type2
+* source:	https://sketchfab.com/3d-models/square-gothic-window-type2-05673de1119a47d3bcb670be7f1d7e8f
+* author:	dariapr (https://sketchfab.com/dariapr)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

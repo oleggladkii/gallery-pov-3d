@@ -1,0 +1,8 @@
+Model Information:
+* title:	realistic door
+* source:	https://sketchfab.com/3d-models/realistic-door-ec835c0c500c487a93f9fcd47535a554
+* author:	MR. A K (https://sketchfab.com/Ahlad_kondli)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

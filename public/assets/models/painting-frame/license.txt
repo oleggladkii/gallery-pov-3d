@@ -1,0 +1,8 @@
+Model Information:
+* title:	Money
+* source:	https://sketchfab.com/3d-models/money-9a935972902640839afacca36ff3b8a9
+* author:	Elias (https://sketchfab.com/elias.voet)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

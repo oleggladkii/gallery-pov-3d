@@ -1,27 +1,41 @@
 {
+  "name": "gallery-3d",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@types/node": "^18.14.1",
-    "nuxt": "^3.2.2",
-    "prettier": "^2.8.4",
-    "pug": "^3.0.2",
-    "pug-plain-loader": "^1.1.0",
-    "sass": "^1.58.3",
-    "sass-loader": "^13.2.0"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.7",
+    "@quasar/extras": "^1.16.11",
+    "add": "^2.0.6",
+    "nuxt": "^3.11.2",
+    "quasar": "^2.15.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
     "@sentry/browser": "^7.38.0",
-    "@sentry/tracing": "^7.38.0",
-    "@vueuse/nuxt": "^9.13.0",
-    "dayjs": "^1.11.7",
-    "pinia": "^2.0.32"
+    "@sentry/tracing": "^7.38.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/eslint-parser": "^7.24.1",
+    "@nuxt/eslint": "^0.3.10",
+    "@types/three": "^0.163.0",
+    "@vue/language-plugin-pug": "^2.0.14",
+    "eslint": "^9.1.1",
+    "eslint-plugin-vue": "^9.25.0",
+    "eslint-plugin-vue-pug": "^0.6.2",
+    "nuxt-quasar-ui": "^2.0.8",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.75.0",
+    "three": "^0.163.0",
+    "typescript": "^5.4.5",
+    "vite-plugin-pug": "^0.3.2"
   }
 }

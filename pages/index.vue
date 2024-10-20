@@ -1,8 +1,3 @@
-<script lang="ts" setup>
-</script>
-
 <template lang="pug">
-div DayJs: {{$dayjs().format('DD/MM/YYYY')}}
+gallery
 </template>
-
-<style scoped lang="scss"></style>
