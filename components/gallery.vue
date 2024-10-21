@@ -21,7 +21,6 @@
       .text-h6.text-white Loading...
     template(v-else)
       h3.title(@click="hideControls") Click here to start
-      q-btn.q-ma-sm(color="primary" to="/") Back
       q-card.controls.my-card.text-white
         q-card-section
           .text-h5.q-mb-md Controls

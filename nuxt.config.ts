@@ -10,12 +10,6 @@ export default defineNuxtConfig({
       },
   },
 
-  routeRules: {
-      '/gallery': {
-          ssr: false,
-      },
-  },
-
   runtimeConfig: {
       public: {
           API_BASE_URL: process.env.API_BASE_URL,
