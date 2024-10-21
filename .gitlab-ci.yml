@@ -57,7 +57,7 @@ build:
     - docker push ${DOCKER_REPOSITORY_IMAGE}
 
 deploy:
-  stage: dev
+  stage: deploy
   only:
     - staging
   image: $DEPLOY_DOCKER_IMAGE
