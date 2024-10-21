@@ -1,0 +1,8 @@
+Model Information:
+* title:	Ceiling Lamp Version 01
+* source:	https://sketchfab.com/3d-models/ceiling-lamp-version-01-c65fca4ac8d74c94a95c19226cb6bf78
+* author:	Misam Ali Rizvi (https://sketchfab.com/MisamAliRizvi)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,11 +1,11 @@
-import { defineNuxtPlugin } from '#app';
-import * as Sentry from '@sentry/browser';
-import { Integrations } from '@sentry/tracing';
+import * as Sentry from '@sentry/browser'
+import { Integrations } from '@sentry/tracing'
+import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(() => {
   Sentry.init({
-    dsn: "",
+    dsn: '',
     integrations: [new Integrations.BrowserTracing()],
     tracesSampleRate: 1.0,
-  });
-});
+  })
+})

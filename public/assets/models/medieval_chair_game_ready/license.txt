@@ -1,0 +1,8 @@
+Model Information:
+* title:	Medieval Chair (Game Ready)
+* source:	https://sketchfab.com/3d-models/medieval-chair-game-ready-b6f766732ee246c28405b83f35eb25c8
+* author:	unseeliefae (https://sketchfab.com/unseeliefae)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
