@@ -44,7 +44,7 @@ sonarqube-pr-decoration:
 build:
   stage: build
   only:
-    - staging
+    - dev
   image: $BUILD_DOCKER_IMAGE
   script:
     - docker login -u gitlab-ci-token -p ${CI_BUILD_TOKEN} ${CI_REGISTRY}
@@ -57,7 +57,7 @@ build:
     - docker push ${DOCKER_REPOSITORY_IMAGE}
 
 deploy:
-  stage: deploy
+  stage: dev
   only:
     - staging
   image: $DEPLOY_DOCKER_IMAGE
