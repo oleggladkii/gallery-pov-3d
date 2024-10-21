@@ -59,7 +59,7 @@ build:
 deploy:
   stage: deploy
   only:
-    - staging
+    - dev
   image: $DEPLOY_DOCKER_IMAGE
   script:
     - grdp-ctl
