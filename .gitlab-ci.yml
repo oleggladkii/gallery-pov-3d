@@ -1,0 +1,27 @@
+image: docker:latest
+
+stages:
+  - build
+  - deploy
+
+Build:
+  only:
+    - dev
+  tags:
+    - kuber
+  stage: build
+  image: ${BUILD_DOCKER_IMAGE}
+  script:
+    - docker login -u gitlab-ci-token -p ${CI_BUILD_TOKEN} ${CI_REGISTRY}
+    - docker build --build-arg VUE_APP_API_URL=${VUE_APP_API_URL} --network=host -t ${DOCKER_REPOSITORY_IMAGE} .
+    - docker push ${DOCKER_REPOSITORY_IMAGE}
+
+Deploy:
+  tags:
+    - kuber
+  stage: deploy
+  only:
+    - dev
+  image: ${DEPLOY_DOCKER_IMAGE}
+  script:
+    - grdp-ctl
