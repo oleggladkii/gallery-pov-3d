@@ -1,4 +1,4 @@
-# preset
+# Gallery 3D
 
 ## Project setup
 ```
