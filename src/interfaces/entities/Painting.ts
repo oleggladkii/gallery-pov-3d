@@ -16,4 +16,5 @@ interface Info {
   name: string;
   author: string;
   price: string;
+  description: string;
 }

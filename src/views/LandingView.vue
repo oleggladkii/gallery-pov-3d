@@ -19,7 +19,7 @@
         .text-h6.q-pt-sm(v-if="!isExpandedImageInfo") Current bid {{ selectedPainting?.info.price }}
         .text-subtitle2.text-center.text-primary(v-if="!isExpandedImageInfo") Click to see more info
       q-card-section.q-pt-none(v-if="isExpandedImageInfo")
-        .text-subtitle2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, velit voluptate. Aliquam, commodi consectetur deserunt esse eveniet expedita labore maxime nihil nisi non nulla odit, quasi totam ut velit veritatis voluptatibus. Accusantium atque dignissimos, dolorum ea eius, magnam numquam placeat rem repellendus temporibus, totam vero voluptatum? Alias commodi consequuntur eveniet quidem recusandae? Assumenda earum maxime modi sit unde. Blanditiis consequatur consequuntur, debitis doloribus error explicabo, illum laboriosam laudantium nisi nulla odit provident quia veniam? Aliquid architecto asperiores atque aut cumque, doloremque, ex facilis fuga ipsa molestiae quas quasi quo repellat saepe similique ullam, velit. Facere iure laborum modi nam quam!
+        .text-subtitle2 {{ selectedPainting?.info.description }}
         .text-h5.q-py-md Current bid {{ selectedPainting?.info.price }}
         q-btn(v-if="isExpandedImageInfo", color="primary") Place bid
 
@@ -698,7 +698,6 @@ onBeforeUnmount(() => {
     text-align: center;
 
     img {
-      width: 50%;
       margin: 0 auto;
     }
 
@@ -715,7 +714,7 @@ onBeforeUnmount(() => {
   position: absolute;
   right: 16px;
   top: 16px;
-  padding: 4px;
+  padding: 4px 24px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;

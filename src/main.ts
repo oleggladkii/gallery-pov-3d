@@ -6,7 +6,7 @@ import "@/scss/styles.scss";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import { PiniaSharedState } from "pinia-shared-state";
-import { Quasar, QCard, QBtn, QCircularProgress } from "quasar";
+import { Quasar, QCard, QCardSection, QBtn, QCircularProgress } from "quasar";
 
 import "@quasar/extras/material-icons/material-icons.css";
 import "quasar/src/css/index.sass";
@@ -24,6 +24,7 @@ app
     plugins: {},
     components: {
       QCard,
+      QCardSection,
       QBtn,
       QCircularProgress,
     },
